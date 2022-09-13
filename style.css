@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: white;
+    color:black;
+}
+.nproyect button{
+    
+    border-radius: 5px;
+    width: 120px;
+    height: 25px;
+    margin: 5px;
+    border: 1.2px solid rgb(105, 4, 88);
+    box-shadow: 2px 2px 5px black;
+}
+
+button:hover{
+    background-color: #8767dd;
+}
+.margen{
+    background: rgb(216, 195, 230);
+    display: block;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.nproyect{
+    padding: 5px;  
+}
+
+.tabla2 button{
+
+    border-radius: 5px;
+    width: 165px;
+    height: 30px;
+    border: 1.2px solid black;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+header{
+    text-align: center; 
+    border: 1px solid white;
+    background: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color:#8767dd;
+    border-radius: 10px;
+    max-width: 950px;
+    min-width: 326px;
+    margin: auto;
+}
+
+
+a{
+    color: aliceblue;
+    text-align: center;
+}
+.tabla1{
+    height: auto;
+    background: rgb(242, 228, 255);
+    border: 2px solid black;
+    max-width: 950px;
+    min-width: 416px;
+    margin: auto;
+    display: flex;
+    padding: 20px ;
+
+}
+.tabla1 p{
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    min-width: 170px;
+    margin: auto;
+    flex-direction: row;
+    margin-left: 5px;
+    font-size: medium;
+
+}
+.tabla2{
+    
+    background: rgb(242, 228, 255);
+    border: 2px solid black;
+    margin:auto;
+    padding: 8px;
+    display: flex;
+    max-width: 950px;
+    min-width: 416px;
+    
+}
+.tabla2 p{
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    min-width: 170px;
+    margin: 10px;
+    margin-left: auto;
+    font-size: small;
+}
+.seccion1{
+    margin: auto 15px;
+    padding: 5px;
+    
+}
+.tabla3{
+    
+    background: rgb(242, 228, 255);
+    border: 2px solid black;
+    margin:auto;
+    padding: 8px;
+    display: flex;
+    max-width: 950px;
+    min-width: 416px;
+    
+}
+
+.seccion2{
+    
+    margin: auto 15px;
+    padding: 5px;
+}
+.seccion2 a{
+    display: block;
+    color: black;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.tabla3 p{
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    min-width: 170px;
+    margin: 10px;
+    margin-left: 61px;
+    font-size: small;
+}
+
+

@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    background: white;
+    color:black;
+    background: rgb(216, 195, 230);
+}
+
+.margen{
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+header{
+    text-align: center; 
+    border: 1px solid white;
+    background: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color:#8767dd;
+    border-radius: 10px;
+    max-width: 950px;
+    min-width: 400px;
+    margin: auto;
+}
+
+.botonusuario{
+    margin: 20px auto;
+    text-align: start;
+    padding-left: 30px;
+    
+}
+
+.tabla{
+    margin:  auto 50px;
+    padding: 30px;
+    min-width: 800px;
+}
+td,th{
+    border: 1px solid black;
+    text-align: center;
+    padding:10px 30px;
+}
